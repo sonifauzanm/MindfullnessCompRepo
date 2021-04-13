@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/colorPrimary"
+    android:weightSum="7"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:layout_weight="1"
+        android:id="@+id/registerPeserta"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="end"
+        android:clickable="true"
+        android:src="@drawable/register" />
+
+    <TextView
+        android:id="@+id/datePendamping"
+        android:layout_weight="5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:layout_weight="1"
+        android:id="@+id/chatPendamping"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:background="@color/colorPrimary"
+        android:clickable="true"
+        android:src="@drawable/chat" />
+
+</LinearLayout>

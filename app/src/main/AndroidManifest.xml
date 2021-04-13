@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.washuh98.soni.catatanharianpelatihanmindfulness_compassion">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logobaru"
+        android:label="@string/app"
+        android:roundIcon="@drawable/logobaru"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login.SplashScreen"
+            android:theme="@style/fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login.LoginActivity" />
+        <activity android:name=".Peserta.Peserta" />
+        <activity android:name=".Pendamping.Pendamping" />
+        <activity android:name=".Pendamping.DaftarPeserta" />
+        <activity android:name=".SesiTraining"></activity>
+    </application>
+
+</manifest>
